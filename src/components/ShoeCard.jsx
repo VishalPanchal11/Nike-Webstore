@@ -15,7 +15,7 @@ const ShoeCard = ({ imgObject, changeBigShoeImg, bigShoeImg }) => {
     >
       <div
         className={`flex items-center justify-center bg-card bg-cover bg-center sm:h-[9rem] sm:w-[9rem] hover:sm:w-[10rem] hover:sm:h-[10rem] ${
-          bigShoeImg == imgObject.bigShoe ? "sm:w-[10rem] sm:h-[10rem]" : ""
+          bigShoeImg == imgObject.bigShoe ? "sm:w-40 sm:h-40" : ""
         } max-sm:p-4 rounded-xl`}
       >
         <img
