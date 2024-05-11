@@ -82,7 +82,7 @@ export const reviews = [
     },
     {
         imgURL: customer2,
-        customerName: 'Samantha Prabhu',
+        customerName: 'Samy Prabhu',
         rating: 4.7,
         feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
     }

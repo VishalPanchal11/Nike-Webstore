@@ -3,7 +3,7 @@ import { hamburger } from "../assets/icons";
 import { navLinks } from "../constants";
 const Nav = () => {
   return (
-    <header className="padding-x py-8 absolute z-10 w-full ">
+    <header className="lg:px-8 max-sm:px-8 py-8 px-16 absolute z-10 w-full ">
       <nav className="flex justify-between items-center max-container">
         <img src={headerLogo} alt="Nike Logo" width={130} height={29} />
         <ul className="flex-1 flex justify-center items-center gap-8 xl:gap-16 2xl:gap-[6rem]  max-lg:hidden">

@@ -2,7 +2,7 @@ import { star } from "../assets/icons";
 const PopularProductCard = ({ imgURL, name, price, rating }) => {
   return (
     <div className="flex flex-1 items-center w-full flex-col -ml-8">
-      <img src={imgURL} alt={name} className="w-[280px] h-[280px] ml-1" />
+      <img src={imgURL} alt={name} className="w-[280px] h-[280px] ml-1 " />
       <h3 className="mt-4  text-2xl leading-normal font-semibold font-palanquin ">
         {name}
       </h3>

@@ -10,20 +10,20 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="w-full flex flex-col xl:flex-row justify-center min-h-screen gap-10 max-container"
+      className="w-full flex flex-col lg:flex-row justify-center min-h-screen gap-10 max-container"
     >
-      <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full pt-28 max-xl:padding-x ">
+      <div className="relative lg:w-2/5 flex flex-col justify-center items-start w-full pt-28 max-xl:px-8 max-lg:px-24 max-md:px-16 max-sm:px-8  ">
         <p className="text-xl font-montserrat text-coral-red">
           Our Summer Collection
         </p>
-        <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold">
+        <h1 className="mt-10 font-palanquin text-8xl max-md:text-[72px] max-md:leading-[82px] font-bold">
           <span className="xl:bg-white xl:whitespace-nowrap relative z-10 pr-10">
             The New Arrival
           </span>
           <br />
           <span className="text-coral-red inline-block mt-3">Nike</span> Shoes
         </h1>
-        <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">
+        <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 max-w-sm">
           Discover stylish Nike arrivals, quality comfort, and innovation for
           your active life.
         </p>
@@ -39,7 +39,7 @@ const Hero = () => {
           ))}
         </div>
       </div>
-      <div className="relative flex-1 flex flex-col items-center justify-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero ">
+      <div className="relative flex-1 flex flex-col items-center justify-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero  ">
         <img
           src={bigShoeImg}
           alt="Shoe Collection"
